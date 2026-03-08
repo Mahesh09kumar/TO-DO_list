@@ -87,6 +87,7 @@ button {
 	transition: background-color 0.5s ease;
 }
 .add-button {
+	margin: 20px;
 	background-color: hsl(125, 47%, 54%);
 }
 .add-button :hover {
@@ -116,11 +117,10 @@ input[type="text"] {
 }
 ol {
 	padding: 0;
-  list-style: none;
-
+	list-style: none;
 }
 li {
-    display: flex;
+	display: flex;
 	font-size: 2rem;
 	font-weight: bold;
 	background-color: hsl(0, 0%, 97%);
