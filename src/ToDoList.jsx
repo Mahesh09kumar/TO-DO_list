@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 
 function ToDoList() {
+<<<<<<< HEAD
 	const [tasks, setTasks] = useState([
 		"Wake up at 6:30 AM",
 		"Exercise for 30 minutes",
 		"Check emails and messages",
 	]);
+=======
+	const [tasks, setTasks] = useState(["shdfu", "jshdygf", "sfhgjew"]);
+>>>>>>> 5d019087effd31ef61c52e6b35a0a56ffdf6030a
 	const [newTask, setNewTask] = useState("");
 
 	function handleInputChange(event) {
